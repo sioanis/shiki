@@ -22,6 +22,7 @@ export type Lang =
   | 'dart'
   | 'diff'
   | 'dockerfile'
+  | 'electronic-data-interchange'
   | 'elixir'
   | 'elm'
   | 'erlang'
@@ -85,6 +86,7 @@ export type Lang =
   | 'shaderlab'
   | 'shellscript'
   | 'smalltalk'
+  | 'soliditysec'
   | 'sql'
   | 'stylus'
   | 'svelte'
@@ -97,6 +99,7 @@ export type Lang =
   | 'vb'
   | 'viml'
   | 'vue'
+  | 'vyper'
   | 'wasm'
   | 'xml'
   | 'xsl'
@@ -206,6 +209,11 @@ export const languages: ILanguageRegistration[] = [
     id: 'dockerfile',
     scopeName: 'source.dockerfile',
     path: path.resolve(__dirname, '../data/dockerfile.tmLanguage.json')
+  },
+  {
+    id: 'electronic-data-interchange',
+    scopeName: 'source.edi',
+    path: path.resolve(__dirname, '../data/electronic-data-interchange.tmLanguage.json')
   },
   {
     id: 'elixir',
@@ -544,6 +552,11 @@ export const languages: ILanguageRegistration[] = [
     path: path.resolve(__dirname, '../data/smalltalk.tmLanguage.json')
   },
   {
+    id: 'soliditysec',
+    scopeName: 'source.solidity.security',
+    path: path.resolve(__dirname, '../data/soliditysec.tmLanguage.json')
+  },
+  {
     id: 'sql',
     scopeName: 'source.sql',
     path: path.resolve(__dirname, '../data/sql.tmLanguage.json')
@@ -610,6 +623,11 @@ export const languages: ILanguageRegistration[] = [
     id: 'vue',
     scopeName: 'source.vue',
     path: path.resolve(__dirname, '../data/vue.tmLanguage.json')
+  },
+  {
+    id: 'vyper',
+    scopeName: 'source.vyper',
+    path: path.resolve(__dirname, '../data/vyper.tmLanguage.json')
   },
   {
     id: 'wasm',

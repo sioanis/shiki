@@ -65,7 +65,11 @@ const languageSources = [
   'https://github.com/wenyan-lang/highlight/blob/master/wenyan.tmLanguage.json',
   'https://github.com/elixir-editors/elixir-tmbundle/blob/master/Syntaxes/Elixir.tmLanguage',
   'https://github.com/pgourlain/vscode_erlang/blob/master/syntaxes/erlang.tmLanguage',
-  'https://github.com/textmate/applescript.tmbundle/blob/master/Syntaxes/AppleScript.tmLanguage'
+  'https://github.com/textmate/applescript.tmbundle/blob/master/Syntaxes/AppleScript.tmLanguage',
+  'https://github.com/pgourlain/vscode_erlang/blob/master/syntaxes/erlang.tmLanguage',
+  'https://github.com/freight-trust/linguist-edi/blob/master/edi.tmLanguage.json',
+  'https://github.com/ConsenSys/vscode-solidity-auditor/blob/master/src/syntaxes/solidity.tmLanguage.json',
+  'https://github.com/vyperlang/vscode-vyper/blob/master/syntaxes/vyper.tmLanguage.json'
 ]
 
 async function go() {
